@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 while getopts "c:d:t:" OPTVAR
 do
 	if [ $OPTVAR == "c" ]
